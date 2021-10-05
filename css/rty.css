@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    background-color: #266064;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0em 2em 0em;
+}
+button{
+    background-color: #C0F9FE;
+    color: black;
+    font-family: 'Permanent Marker';
+    margin-top: 1em;
+    padding: 3.5em 4.5em 3.5em 4.5em;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+}
